@@ -1,9 +1,11 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
-      font-style: oblique;
-    font-size: 1.2em;
-    font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 :root {
@@ -35,7 +37,7 @@ body.wrong {
 .container {
   width: 800px;
   max-width: 80%;
-  background-color:  #30667e;
+  background-color: #30667e;
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 0 10px 2px;
@@ -49,40 +51,41 @@ body.wrong {
 }
 
 .btn {
-    --hue: var(--hue-neutral);
-    border: 2px solid hsl(var(--hue), 60%, 30%);
-    background-color: hsl(var(--hue), 30%, 60%);
-    border-radius: 5px;
-    padding: 5px 10px;
-    color: #334d58;
-    outline: none;
+  --hue: var(--hue-neutral);
+  border: 2px solid hsl(var(--hue), 60%, 30%);
+  background-color: hsl(var(--hue), 30%, 60%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #334d58;
+  outline: none;
 }
 
 .btn:hover {
-border-color: #1b3c4b;
+  border-color: #1b3c4b;
 }
 
-.btn.correct{
-    --hue: var(--hue-correct);
-    color: #335838;
+.btn.correct {
+  --hue: var(--hue-correct);
+  color: #335838;
 }
 
-.btn.wrong{
-    --hue: var(--hue-wrong);
-    color:#583333;
+.btn.wrong {
+  --hue: var(--hue-wrong);
+  color: #583333;
 }
 
-.start-btn, .next-btn {
-    font-size : 1.2em;
-    font-weight: bold;
-    padding: 10px 20px;
+.start-btn,
+.next-btn {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px 20px;
 }
 
 .controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hide {
-    display : none;
+  display: none;
 }
