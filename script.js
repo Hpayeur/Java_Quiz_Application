@@ -113,21 +113,21 @@ const questions = [
       { text: "Larry Page", correct: false },
     ],
   },
-    {
+  {
     question: "Is Software Development fun?",
     answers: [
       { text: "Kinda", correct: false },
       { text: "Yes!!", correct: true },
-      {text: "Not at All", correct: false},
+      { text: "Not at All", correct: false },
       { text: "I don't Know", correct: false },
     ],
   },
-    {
+  {
     question: "Is Software Development fun?",
     answers: [
       { text: "$330,000 to $556,000", correct: false },
       { text: "$322,000 to $373,000", correct: false },
-      {text: "$56,000 to $183,000", correct: false},
+      { text: "$56,000 to $183,000", correct: false },
       { text: "$103,000 to $132,000", correct: true },
     ],
   },
